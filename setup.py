@@ -9,7 +9,7 @@ setuptools.setup(
   description="",
   url="",
   packages=setuptools.find_packages(),
-  install_requires=['numexp'],
+  install_requires=['numexpr'],
   classifiers=[
     "Development Status :: 4 - Beta",
     "Programming Language :: Python :: 3",
