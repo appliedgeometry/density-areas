@@ -1,5 +1,5 @@
 # density-areas
-Symbolic and numerical methods for computing Poisson brackets on the spaces of measures with positive densities of the plane, the 2-torus, and the 2-sphere and to compute symplectic areas of finite regions for the case of the 2-sphere.
+Symbolic and numerical methods for computing Poisson brackets on the spaces of measures with positive densities of the plane, the 2-torus, and the 2-sphere and to compute symplectic areas of finite regions for this last case.
 
 <!--- #### Testing: --->
  * __Run our tutorial on Colab__ [English](https://colab.research.google.com/drive/1Wt17ErLZrvc_x6JAtnip5M04bZvJ4iUK?usp=sharing)
