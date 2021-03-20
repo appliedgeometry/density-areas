@@ -1,10 +1,10 @@
 import setuptools
 
 setuptools.setup(
-  name='',
-  version='',
-  author="",
-  author_email="",
+  name='test',
+  version='0.0.1',
+  author="J. C. Ruíz-Pantaleón and P. Suárez-Serrato",
+  author_email="jcpanta@im.unam.mx, pablo@im.unam.mx",
   license="MIT",
   description="",
   url="",
