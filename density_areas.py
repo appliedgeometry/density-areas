@@ -173,7 +173,7 @@ def PoissonWasserstein_S2(tau, rho, function1, function2, numerical=False):
         for some conformal factor tau on S^2. Hence, the Poisson bracket on P^{OO}(S^2) is given by
 
             {F_{f}, F_{h}}(mu_{rho}) = 1/(4*pi) * int_{0}^{2*pi} int_{0}^{pi} (df/d{theta} * dh/d{phi} 
-                                                 - dh/d{theta} * df/d{phi}) * tau * rho * sin(theta) d{theta1}d{theta2},
+                                                 - dh/d{theta} * df/d{phi}) * tau * rho * d{theta1}d{theta2},
                                                                                                          ----------> (2)
         where F_{f} and F_{h} are linear functionals on P^{OO}(S^2) induced by scalar functions f and h on S^2, and
 
@@ -217,7 +217,7 @@ def PoissonWasserstein_S2(tau, rho, function1, function2, numerical=False):
     bracket_ff_hh = (sym.diff(ff, theta) * sym.diff(hh, phi) - sym.diff(hh, theta) * sym.diff(ff, phi)) * tau
 
     # Compute the integrand of the double integral in (2)
-    integrand = bracket_ff_hh * rho * sym.sin(theta)
+    integrand = bracket_ff_hh * rho
 
     if numerical == True:   # Indicate numerical computation
         # Transform the symbolic variable 'integrand' into a NumPy function that allows a numerical evaluation 
